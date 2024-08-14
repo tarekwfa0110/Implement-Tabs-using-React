@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 10px 20px;
+  background-color: white;
+}
+
+button:hover {
+  border: aqua 1px solid;
+  color: aqua;
+}
+
+.selectedButton {
+  background-color: aqua;
+  border: none;
+  color: white;
+}
